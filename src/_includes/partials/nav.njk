@@ -12,7 +12,7 @@
                 <a href="/#platform" class="nav__link">Platform</a>
                 <a href="/#usecases" class="nav__link">Use Cases</a>
                 <a href="/#services" class="nav__link">Services</a>
-                <a href="/insights/" class="nav__link">Insights</a>
+                {%- if site.showInsightsNav %}<a href="/insights/" class="nav__link">Insights</a>{% endif %}
                 <a href="/#contact" class="nav__cta">Get in Touch</a>
             </div>
             <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">

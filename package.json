@@ -4,8 +4,10 @@
   "description": "Aber Analytics marketing website",
   "type": "module",
   "scripts": {
-    "dev": "npx @11ty/eleventy --serve --port=8080",
-    "build": "npx @11ty/eleventy"
+    "dev": "ELEVENTY_ENV=staging npx @11ty/eleventy --serve --port=8080",
+    "dev:prod": "npx @11ty/eleventy --serve --port=8080",
+    "build": "npx @11ty/eleventy",
+    "build:staging": "ELEVENTY_ENV=staging npx @11ty/eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",

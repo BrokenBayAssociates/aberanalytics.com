@@ -31,7 +31,7 @@ echo ""
 # 1. Build the site
 echo "[1/4] Building site with Eleventy..."
 cd "$WEBSITE_DIR"
-npm run build
+npm run build:staging
 echo "      Built to _site/"
 
 # 2. Prepare remote directory
