@@ -104,7 +104,7 @@ Use the interactive dashboard to explore load duration curves for any NEM state,
 
 ---
 
-[Get in touch](mailto:info@aberanalytics.com) to explore how firm capacity dynamics affect your assets or investment decisions.
+[Get in touch](mailto:info@aberanalytics.com) to learn more about our energy market modelling and analytics capabilities.
 
 ---
 
