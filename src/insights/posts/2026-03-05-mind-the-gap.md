@@ -21,7 +21,7 @@ An increasing gap between traditional firming technologies and peak demand will 
 
 **Lean more on interconnectors.** States like SA are projected to require more and more firming across interconnectors, a dependency that carries risk during coincident stress events.
 
-To demonstrate this, we have used load duration curves to interrogate AEMO's 2026 ISP, comparing today's thermal-anchored system with the storage-and-VRE system projected for 2040. [Explore the extended dataset](#dashboard) in the interactive dashboard below.
+To demonstrate this, we have used load duration curves to interrogate AEMO's Draft 2026 ISP, comparing today's thermal-anchored system with the storage-and-VRE system projected for 2040. [Explore the extended dataset](#dashboard) in the interactive dashboard below.
 
 ## Two pictures from two states
 
@@ -118,8 +118,8 @@ Use the interactive dashboard to explore load duration curves for any NEM state,
 
 **[2] Storage firm contribution.** Battery and coordinated CER storage capacity is adjusted based on average storage duration relative to an assumed peak demand event duration of 8.77 hours (reverse-engineered from AEMO's 2024 ISP). Storage duration is calculated as aggregate energy capacity (GWh) divided by aggregate power capacity (GW), sourced from the Storage Capacity and Storage Energy sheets in AEMO's *Draft 2026 ISP Generation and Storage Outlook*. Duration is a capacity-weighted average across battery classes (deep, medium, and shallow utility-scale storage).
 
-**[3] VRE firm contribution.** Wind and solar nameplate capacity is multiplied by AEMO's seasonal firm contribution factors, sourced from the 2026 ISP VRE firm contribution dataset. These factors represent the capacity credit each VRE technology receives during peak demand periods. In winter, solar's firm contribution is near zero and wind is typically 5&ndash;10% of nameplate.
+**[3] VRE firm contribution.** Wind and solar nameplate capacity is multiplied by AEMO's seasonal firm contribution factors, sourced from the Draft 2026 ISP VRE firm contribution dataset. These factors represent the capacity credit each VRE technology receives during peak demand periods. In winter, solar's firm contribution is near zero and wind is typically 5&ndash;10% of nameplate.
 
 **[4] Imports.** In reality, imports will always supply a portion of these demand periods. This analysis excludes imports for illustrative purposes only.
 
-**Data sources.** Capacity projections from AEMO's 2026 ISP CDP4 (Optimal Development Path), Step Change scenario workbooks. Demand traces are half-hourly load duration curves from AEMO's Draft 2026 ISP demand traces, summed across subregions to state level. Charts in this article use reference year 2015 and POE10 demand.
+**Data sources.** Capacity projections from AEMO's Draft 2026 ISP CDP4 (Optimal Development Path), Step Change scenario workbooks. Demand traces are half-hourly load duration curves from AEMO's Draft 2026 ISP demand traces, summed across subregions to state level. Charts in this article use reference year 2015 and POE10 demand.
