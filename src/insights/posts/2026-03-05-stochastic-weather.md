@@ -2,7 +2,7 @@
 title: "Under the weather: Stochastic variance in VRE returns"
 date: 2026-03-05
 author: "Aber Analytics"
-category: "Stochastic and market modelling"
+category: "Methodology"
 excerpt: "Traditional reference-year modelling may leave tail risks unquantified. A stochastic approach across 500 synthetic weather scenarios reveals the full distribution of revenue outcomes for wind and solar assets."
 layout: article.njk
 toc: true
