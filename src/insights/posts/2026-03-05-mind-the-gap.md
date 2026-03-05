@@ -9,6 +9,8 @@ toc: true
 tags: ["insights"]
 ---
 
+## Redefining firm capacity
+
 Today's system has roughly enough dispatchable thermal capacity to meet demand, providing reassurance that the lights won't go off if the sun stops shining or the wind stops blowing. With coal retirements incoming, firm capacity is being redefined.
 
 An increasing gap between traditional firming technologies and peak demand will change which risks matter most for system reliability. Firm capacity will:
@@ -102,6 +104,10 @@ Use the interactive dashboard to explore load duration curves for any NEM state,
 
 ---
 
+[Get in touch](mailto:info@aberanalytics.com) to explore how firm capacity dynamics affect your assets or investment decisions.
+
+---
+
 ## References and methodology
 
 **[1] Thermal outage derating.** Coal and gas capacity is derated by a flat 10% forced outage rate, applied uniformly across all thermal technologies.
@@ -114,4 +120,3 @@ Use the interactive dashboard to explore load duration curves for any NEM state,
 
 **Data sources.** Capacity projections from AEMO's 2026 ISP CDP4 (Optimal Development Path), Step Change scenario workbooks. Demand traces are half-hourly load duration curves from AEMO's Draft 2026 ISP demand traces, summed across subregions to state level. Charts in this article use reference year 2015 and POE10 demand.
 
-[Get in touch](mailto:info@aberanalytics.com) to explore how firm capacity dynamics affect your assets or investment decisions.
