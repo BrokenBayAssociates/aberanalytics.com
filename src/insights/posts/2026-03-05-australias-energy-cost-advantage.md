@@ -11,7 +11,9 @@ extraScripts:
   - https://cdn.plot.ly/plotly-2.35.2.min.js
 ---
 
-We show in this article that at 80% power system decarbonisation, **Australia could have one of the lowest electricity system costs compared to other major economies.**  This is good news for doing business in Australia, given the push amongst most advanced economies for high levels of decarbonisation in the 2030s. However, there are some flags to solve as we push past this point.
+<div class="article-lede">
+<p>We show in this article that at 80% power system decarbonisation, <strong>Australia could have one of the lowest electricity system costs compared to other major economies.</strong> This is good news for doing business in Australia, given the push amongst most advanced economies for high levels of decarbonisation in the 2030s. However, there are some flags to solve as we push past this point.</p>
+</div>
 
 ## Five ways to decarbonise a power system
 
