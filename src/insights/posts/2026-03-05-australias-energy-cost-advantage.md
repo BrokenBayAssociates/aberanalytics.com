@@ -11,31 +11,32 @@ extraScripts:
   - https://cdn.plot.ly/plotly-2.35.2.min.js
 ---
 
-Energy costs relative to the rest of the globe is a critical part of keeping it competitive to do business in Australia. At 80% power system decarbonisation — roughly where most advanced economies are targeting by the 2030s — **Australia could have one of the lowest electricity system costs compared to other major economies.** However, this is a more difficult position to defend as we get into the later stages of the transition.
+We show in this article that at 80% power system decarbonisation, **Australia could have one of the lowest electricity system costs compared to other major economies.**  This is good news for doing business in Australia, given the push amongst most advanced economies for high levels of decarbonisation in the 2030s. However, there are some flags to solve as we push past this point.
 
-## Six ways to decarbonise a power system
+## Five ways to decarbonise a power system
 
-Not all energy transitions look the same. A country blessed with extensive hydroelectric resources faces a fundamentally different optimisation problem from one building out solar and wind at scale. Our six archetypes capture this diversity:
+Not all energy transitions look the same. A country blessed with extensive hydroelectric resources faces a fundamentally different challenge compared to a European country that has limited solar potential and a high wind energy density. We have explored five archetypes that stylistically represent this diversity: :
 
-- **Australia** — World-class solar and wind resources, gas peakers for firming, growing battery storage
-- **Nuclear + renewables** — Clean firm baseload complemented by variable renewables (think France or South Korea)
-- **Asian competition (e.g. China)** — Large, diversified system with significant hydro, rapidly scaling RE, and coal being displaced
+- **Australia** — World-class solar and wind resources, natural gas for firming, quickly growing battery storage
+- **Nuclear + renewables** — Clean firm baseload complemented by variable renewables (e.g., France or South Korea)
+- **Large Asian players** — Large, diversified system with significant hydro, rapidly scaling RE, and coal backup (e.g., China)
 - **Hydro & geothermal** — Dispatchable clean energy as the system backbone (Norway, New Zealand, parts of Latin America)
-- **Wind-dominant (Western Europe)** — High wind penetration, limited solar resource, constrained land availability
-- **Limited RE supply** — Resource-constrained systems reliant on a narrower set of clean technologies
+- **Wind-dominant** — High wind penetration, limited solar resource, constrained land availability (e.g., Western Europe)
 
-For each archetype, we modelled the cost-optimal technology mix to reach progressively deeper decarbonisation targets, using consistent cost assumptions for generation, storage, and transmission but varying technology availability and resource quality.<sup>1</sup>
+For each archetype, we modelled the cost-optimal technology mix to reach progressively deeper decarbonisation targets, using consistent cost assumptions for generation, storage, and transmission but varying technology availability and resource quality.<sup>1</sup> We have analysed the relative system cost of supplying an average unit of power in each system.
 
-## At 80% decarbonisation, Australia is surprisingly competitive
+## At 80% decarbonisation, Australia can be highly competitive
 
 {% plotlyChart "archetype-comparison", "Annualised system cost at 80% decarbonisation by archetype" %}
 *Source: Aber Analytics power system archetype model*
 
-In our standard scenario, Australia achieves 80% power system decarbonisation at an annualised system cost of **US$17.1 billion** — competitive with the Asian archetype (US$17.3bn) and well ahead of hydro-dominated systems (US$18.3bn), nuclear + RE (US$19.1bn), and wind-dominant systems (US$20.0bn).
+Australia enters this analysis from a position of genuine structural advantage. Abundant solar and wind resources, combined with relatively low-cost firming from gas peakers, place it among the most cost-competitive power systems in the world across every demand scemario we modelled. That advantage is durable under moderate decarbonisation ambition — the analysis suggests Australia can push to roughly 80% clean energy without materially impairing its competitive position relative to peer economies.
 
-This result may surprise anyone accustomed to hearing about Australia's energy challenges. But it reflects a straightforward reality: Australia has among the world's best combined solar and wind resources. When these are paired with efficient firming — gas peakers providing roughly 14 GW of capacity, batteries contributing around 24 GW — the resulting system is hard to beat on cost. The model builds approximately 50 GW of solar and wind for Australia at this decarbonisation level, leveraging a resource advantage that is genuinely world-class.
+In our standard scenario, Australia achieves 80% power system decarbonisation at a system cost roughly in line with the Asian archetype and approximately 7–17% below hydro-dominated, nuclear + RE, and wind-dominant systems. 
 
-Across different demand shapes — industrial-led, consumer-driven, data centre-heavy — the optimal Australian system consistently converges on the same architecture: high renewables penetration with gas peaking. The demand mix matters less than the supply fundamentals.
+## Demand shape does not change the answer
+
+Alongside supply archetypes, we investigated various demand archetypes, with the hypothesis that significantly different demand shapes (e.g., larger data centre or industrial share vs. a consumer-driven grid) would be best served by different power system mixes. We found surprisingly limited effects. The most cost effective Australian system consistently converges on a high renewables system with gas peaking and batteries. The demand mix matters less than the supply fundamentals. 
 
 ## Transmission is the swing factor
 
@@ -44,71 +45,44 @@ Australia's competitive position comes with an important caveat: it is highly se
 {% plotlyChart "transmission-sensitivity", "Australia's system cost as a function of transmission cost" %}
 *Source: Aber Analytics power system archetype model*
 
-Our sensitivity analysis shows that Australia's annualised system cost ranges from **US$15.6 billion** at low transmission costs to **US$19.1 billion** at high transmission costs — a 22% variation driven entirely by this single factor.
+Our sensitivity analysis shows that Australia's annualised system cost varies by approximately 22% between low and high transmission cost assumptions. At the high end, Australia's cost advantage over other archetypes narrows significantly, while at the low end it widens to become one of the most competitive systems modelled. 
 
-The mechanism is intuitive. Australia's best renewable resources — the Pilbara, Central West NSW, North Queensland, the Western Victorian plains — are hundreds of kilometres from major load centres. As transmission costs increase, the model progressively curtails solar build-out. The share of solar and wind in the generation mix drops from 74% at low transmission costs to effectively zero at the highest cost assumptions.
+This has a direct read-through to current infrastructure decisions. Australia's actual transmission costs sit in the upper portion of the range we modelled, reflecting the well-documented challenges of building new high-voltage lines across vast distances. If transmission costs settle at the higher end — driven by the delivery delays we've explored in [previous analysis](/insights/posts/2026-03-05-physical-bottlenecks-in-the-energy-transition/) — Australia's system cost advantage materially narrows.
 
-This has a direct read-through to current infrastructure decisions. Australia's actual transmission costs sit in the upper portion of the range we modelled, reflecting the well-documented challenges of building new high-voltage lines across vast distances. If transmission costs settle at the higher end — driven by the delays and cost overruns we've documented in [previous analysis](/insights/posts/2026-03-05-physical-bottlenecks-in-the-energy-transition/) — Australia's system cost advantage narrows from best-in-class to merely average.
-
-The implication is clear: **transmission infrastructure is the single most important lever for Australia's long-run energy competitiveness.**
-
-## The last 15% changes everything
+## The last 15% requires an evolving strategy
 
 The picture shifts significantly when decarbonisation pushes beyond 80%.
 
 {% plotlyChart "decarb-trajectory", "System cost at 80% vs 95% decarbonisation" %}
 *Source: Aber Analytics power system archetype model*
 
-Moving from 80% to 95% decarbonisation increases Australia's annualised system cost by **US$3.5 billion — a 20% jump.** By contrast, the Asian archetype increases by just US$0.3 billion (2%). Even hydro-dominated and nuclear systems see proportionally smaller increases.
+Moving from 80% to 95% decarbonisation escalates Australia's annualised system cost by **20%, a significant jump.** By contrast, the Asian archetype increases by just 2% and hydro-dominated and nuclear systems see proportionally smaller increases. This is the classic "last mile" problem of deep decarbonisation in high renewables systems: the marginal unit of clean energy becomes increasingly expensive as the system must handle residual demand that renewables alone cannot reliably serve. Systems that already have dispatchable clean energy (hydro, geothermal, nuclear) face a much smaller incremental cost to reach very deep decarbonisation.
 
-The reason is structural. Eliminating the last 15–20% of carbon emissions from a renewables-dominated system means displacing the gas peakers that provide the final layer of reliability. Replacing them with zero-emissions alternatives — longer-duration storage, clean firm generation, or demand flexibility — is expensive. Systems that already have dispatchable clean energy (hydro, geothermal, nuclear) face a much smaller incremental cost to reach very deep decarbonisation.
+## What this means for Australian industry
 
-Our modelling confirms what first-principles analysis would suggest: clean firm generation (nuclear, geothermal, or equivalent) only becomes cost-effective in the Australian system at capital costs of around **US$3–4 per watt**. Below that threshold, gas peakers remain the cheapest firming option. This implies that Australia's path to very deep decarbonisation depends either on bringing clean firm costs down to that level, or on accepting a longer timeline for the final tranche of power system emissions.
+Australia's energy resource endowment gives it a genuine structural advantage in the energy transition. Our modelling shows that a well-designed Australian power system could be among the cheapest in the world — competitive with Asian alternatives and significantly cheaper than European pathways.
 
-## What this means for industry and investment
-
-The system cost findings translate directly into industrial competitiveness — with implications that extend well beyond the energy sector.
-
-### A structural cost advantage in the mid-transition
-
-At 80% decarbonisation with well-managed transmission costs, Australia's power system costs are among the lowest globally. For energy-intensive industries — aluminium smelting, green hydrogen production, steel, data centres — this represents a genuine, durable cost advantage over competitors in Europe, Japan, or other high-cost energy jurisdictions.
-
-This is not an incremental difference. At standard transmission assumptions, Australia's system cost is **15% lower than the wind-dominant (European) archetype** and **11% lower than nuclear + RE systems.** For industries where energy is a significant share of operating costs, this gap is material.
-
-### The window for industrial attraction is now
-
-Australia's cost advantage is most pronounced in the 70–85% decarbonisation range — roughly the period from the late 2020s through the mid-2030s. This is the window in which Australia should be actively positioning to attract energy-intensive investment. Industries that establish operations during this period benefit from structurally low energy costs for decades, even as the system continues to evolve.
-
-### Deep decarbonisation requires a different strategy
-
-For industries that require or commit to 100% clean energy — whether for regulatory, customer, or ESG reasons — Australia's advantage fades unless clean firm power costs fall significantly. This creates an important strategic nuance: **near-term industrial attraction should be anchored to the 80% system, while longer-term competitiveness depends on Australia's progress with emerging technologies** like advanced geothermal, small modular reactors, or very long-duration storage.
-
-## The advantage is real — but conditional
-
-Australia's energy resource endowment gives it a genuine structural advantage in the energy transition. Our modelling shows that a well-designed Australian power system at 80% decarbonisation is among the cheapest in the world — competitive with Asian alternatives and significantly cheaper than European pathways.
-
-But this advantage is conditional, not automatic. It requires:
+But this advantage is conditional. It requires:
 
 1. **Managing transmission costs** — the single most important lever for Australia's system cost competitiveness
 2. **Building renewable infrastructure at pace** — which depends on solving the [physical delivery constraints](/insights/posts/2026-03-05-physical-bottlenecks-in-the-energy-transition/) that currently limit build rates
-3. **Being realistic about the last 15%** — deep decarbonisation beyond ~85% requires clean firm power that Australia doesn't yet have at competitive costs
-4. **Moving quickly** — the cost advantage window is open now, but it won't stay open indefinitely as other economies scale their own clean energy systems
+3. **Being realistic about the last 15-20%** — deep decarbonisation beyond ~80% requires clean firm power that Australia doesn't yet have
 
-The question is not whether Australia *can* have competitive energy costs. The modelling is clear: it can. The question is whether the infrastructure and policy decisions being made today will allow that potential to be realised.
+The Australian bet on a high renewables system is a sound one, and the prize for businesses operating here is significant if we can get the rollout right.
+
+<div class="how-we-did-this">
+<h3>How we did this analysis</h3>
+<p>We used the Aber Analytics power modelling platform to set up stylised scenario modelling of the power systems of global economies as they decarbonise. The model solves for the most efficient long-run marginal cost capacity mix to meet the demand of the system. The analysis considered a range of demand archetypes, and varying technology choices and resource quality levels.</p>
+<figure class="how-we-did-this__figure">
+<figcaption>Aber Analytics Modelling Platform schematic</figcaption>
+<img src="/assets/images/methodology/model-schematic.png" alt="Aber Analytics Modelling Platform schematic">
+</figure>
+</div>
 
 <div class="footnotes">
 <ol>
 <li id="fn1">The six archetypes are stylised representations, not country-specific models. Each uses consistent cost assumptions for generation, storage, and transmission technologies, with resource quality and availability varied to match the archetype's characteristics. <a href="#fnref1">↩</a></li>
 </ol>
-</div>
-
-<div class="how-we-did-this">
-<h3>How we did this analysis</h3>
-<p>We used the Aber Analytics power modelling platform to set up stylised scenario modelling of the power systems of global economies as they decarbonise. The model solves for the most efficient long-run marginal cost capacity mix to meet the demand of the system. The analysis took a range of demand archetypes, and varying technology choices and resource quality for each archetype.</p>
-<figure class="how-we-did-this__figure">
-<figcaption>Aber Analytics Modelling Platform schematic</figcaption>
-<img src="/assets/images/methodology/model-schematic.png" alt="Aber Analytics Modelling Platform schematic">
-</figure>
 </div>
 
 <script>
