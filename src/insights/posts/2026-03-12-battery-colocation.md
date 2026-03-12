@@ -20,18 +20,11 @@ But where a battery sits physically, what is connected next to it, and how it re
 
 ## Building the value stack
 
-Any battery development rests on three value pools. Co-locate with a large industrial load and four additional layers stack on top — each driven by a different physical or commercial mechanism, none available to a battery on its own connection. Click any layer to see what drives it.
+Any battery development rests on three value pools. Co-locate with a large industrial load and three additional layers stack on top — each driven by a different physical or commercial mechanism, none available to a battery on its own connection. Click any layer to see what drives it.
 
 <div class="value-stack">
 
 <div class="value-stack__section-label value-stack__section-label--btm">Co-location premium</div>
-
-<details class="value-block value-block--btm">
-<summary>Precinct and load diversity</summary>
-<div class="value-block__body">
-<p>Where an industrial site has surplus grid connection capacity beyond its own needs, additional tenants can co-locate: data centres, other manufacturers, logistics operations. Each adds load with a different consumption profile, creating diversity that improves overall connection utilisation. The site can distribute shared infrastructure costs across a larger base, and the operator of the embedded network can capture a retail margin on energy supplied to tenants. This value only exists when a battery is part of a broader precinct anchored by industrial load.</p>
-</div>
-</details>
 
 <details class="value-block value-block--btm">
 <summary>Avoided congestion</summary>
@@ -84,8 +77,6 @@ Any battery development rests on three value pools. Co-locate with a large indus
 The four BTM-only layers all stem from the same underlying fact: the battery and the load share a grid connection. Energy stored on-site and discharged to serve local demand never touches the transmission network.
 
 That single physical fact cascades into multiple financial consequences. The energy doesn't incur transmission use-of-system charges. It doesn't suffer marginal loss factors. It isn't curtailed when upstream lines are congested. For an industrial consumer drawing hundreds of megawatts around the clock, each of those avoided costs is material in its own right. Together, they can shift project economics from marginal to compelling.
-
-The precinct layer takes this further. Where a large industrial site has surplus connection capacity, additional tenants can co-locate and share infrastructure costs. Different load profiles create natural diversity that improves connection utilisation, and the operator of the embedded network can capture a retail margin on energy supplied to tenants.
 
 ## A different risk shape
 
