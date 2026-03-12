@@ -9,10 +9,10 @@ tags: ["insights"]
 ---
 
 <div class="article-lede">
-<p><strong>Battery development starts with land and the work to reach shovel-ready.</strong> A developer willing to structure a behind-the-meter arrangement with an industrial offtaker can access additional value pools beyond what a front-of-meter project provides. Those additional pools open up when battery and load share a grid connection.</p>
+<p><strong>Battery development starts the same way:</strong> find a site, secure a connection, and reach shovel-ready. Co-locating with an industrial offtaker changes the economics. It opens up value pools that a front-of-meter project cannot access, and capturing them depends on how the commercial arrangements are structured.</p>
 </div>
 
-Across the NEM, battery development has typically been a front-of-meter exercise: a site, a grid connection, and a merchant or contracted revenue stream. Industrial consumers are increasingly contracting battery offtake as part of their energy strategy. Projects co-located with those loads carry a larger value stack, and access to each layer depends on how the commercial arrangements are structured.
+Across the NEM, industrial consumers are increasingly contracting battery offtake as a hedge against wholesale price exposure, to manage network tariff costs, or as part of a broader energy strategy. The projects co-located with those loads carry a larger value stack than a standard merchant development. Each layer of that stack requires its own contractual mechanism to access.
 
 ## Development fundamentals
 
