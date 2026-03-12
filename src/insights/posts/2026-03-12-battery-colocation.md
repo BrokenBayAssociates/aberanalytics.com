@@ -22,58 +22,70 @@ But where a battery sits physically, what is connected next to it, and how it re
 
 A standalone front-of-meter battery captures three sources of value: the land lease, the development margin (the premium a ready-to-build project commands at financial close), and energy market arbitrage.
 
-Co-locate that battery with a large industrial load and four additional layers appear. Each is driven by a different physical or commercial mechanism, none of which is available to a battery on its own connection. Each layer below describes what drives it.
+Co-locate that battery with a large industrial load and four additional layers appear. Each is driven by a different physical or commercial mechanism, none of which is available to a battery on its own connection. Click any layer in the co-located column to see what drives it.
 
-<div class="value-stack">
+<div class="value-stack-compare">
 
-<details class="value-layer">
-<summary>Land <span class="value-layer__tag value-layer__tag--ftm">FTM + BTM</span></summary>
-<div class="value-layer__body">
+<div class="value-stack-col">
+<div class="value-stack-col__label">Standalone FTM</div>
+<div class="value-block-static">Land</div>
+<div class="value-block-static">Development margin</div>
+<div class="value-block-static">Energy arbitrage</div>
+</div>
+
+<div class="value-stack-col">
+<div class="value-stack-col__label">Co-located BTM</div>
+
+<details class="value-block value-block--shared">
+<summary>Land</summary>
+<div class="value-block__body">
 <p>Every battery needs land. For a standalone project, this is a straightforward lease negotiation with a landowner. For a co-located battery, the industrial host often has underutilised land adjacent to existing infrastructure, which can mean faster access and more flexible terms.</p>
 </div>
 </details>
 
-<details class="value-layer">
-<summary>Development margin <span class="value-layer__tag value-layer__tag--ftm">FTM + BTM</span></summary>
-<div class="value-layer__body">
+<details class="value-block value-block--shared">
+<summary>Development margin</summary>
+<div class="value-block__body">
 <p>Securing development approvals, a grid connection agreement, EPC contracts, and financing takes 18 to 24 months and real capital. The developer's margin is the premium a ready-to-build project commands over raw development costs. For co-located projects, an existing grid connection and site infrastructure can compress this timeline, though the commercial structuring with the industrial host adds its own complexity.</p>
 </div>
 </details>
 
-<details class="value-layer">
-<summary>Energy market arbitrage <span class="value-layer__tag value-layer__tag--ftm">FTM + BTM</span></summary>
-<div class="value-layer__body">
+<details class="value-block value-block--shared">
+<summary>Energy arbitrage</summary>
+<div class="value-block__body">
 <p>The most widely understood source of battery value. Charge when wholesale prices are low, typically midday when solar output peaks, and discharge when prices are high, during evening peaks when thermal generators set the marginal price. The size of the opportunity depends on the spread between daily price troughs and peaks, and how much of the available volatility the battery can capture. Both standalone and co-located batteries access this value.</p>
 </div>
 </details>
 
-<details class="value-layer">
-<summary>Network tariff management <span class="value-layer__tag value-layer__tag--btm">BTM only</span></summary>
-<div class="value-layer__body">
+<details class="value-block value-block--btm">
+<summary>Network tariff management</summary>
+<div class="value-block__body">
 <p>Transmission use-of-system (TUOS) charges are typically levied on a consumer's peak demand during specific windows, often 4pm to 8pm on weekdays. For a large industrial load drawing hundreds of megawatts, these demand charges represent a substantial share of total energy costs. A co-located battery can discharge during peak windows to reduce the site's measured demand, directly lowering the TUOS bill. A standalone front-of-meter battery has no load to shave and captures none of this value.</p>
 </div>
 </details>
 
-<details class="value-layer">
-<summary>Avoided transmission losses <span class="value-layer__tag value-layer__tag--btm">BTM only</span></summary>
-<div class="value-layer__body">
+<details class="value-block value-block--btm">
+<summary>Avoided transmission losses</summary>
+<div class="value-block__body">
 <p>Every megawatt-hour moving through the transmission network loses a fraction to resistive losses, quantified through marginal loss factors (MLFs). At some NEM nodes, losses exceed 5% of delivered energy. When a co-located battery charges from the grid and discharges directly to on-site load, the energy serving that load bypasses the transmission network. The avoided losses accrue as a cost saving to the site. A standalone battery exports everything back through the grid and incurs losses on both sides of the transaction.</p>
 </div>
 </details>
 
-<details class="value-layer">
-<summary>Avoided congestion <span class="value-layer__tag value-layer__tag--btm">BTM only</span></summary>
-<div class="value-layer__body">
+<details class="value-block value-block--btm">
+<summary>Avoided congestion</summary>
+<div class="value-block__body">
 <p>Network congestion constrains what generators and batteries can export during periods of high demand or limited transfer capacity. A standalone battery may be curtailed precisely when prices are highest if it sits behind a congested part of the network. A co-located battery serving on-site load doesn't face this constraint: the energy never enters the shared network. It dispatches regardless of upstream conditions, capturing value in exactly the hours when standalone assets may be forced to sit idle.</p>
 </div>
 </details>
 
-<details class="value-layer">
-<summary>Precinct and load diversity <span class="value-layer__tag value-layer__tag--btm">BTM only</span></summary>
-<div class="value-layer__body">
+<details class="value-block value-block--btm">
+<summary>Precinct and load diversity</summary>
+<div class="value-block__body">
 <p>Where an industrial site has surplus grid connection capacity beyond its own needs, additional tenants can co-locate: data centres, other manufacturers, logistics operations. Each adds load with a different consumption profile, creating diversity that improves overall connection utilisation. The site can distribute shared infrastructure costs across a larger base, and the operator of the embedded network can capture a retail margin on energy supplied to tenants. This value only exists when a battery is part of a broader precinct anchored by industrial load.</p>
 </div>
 </details>
+
+</div>
 
 </div>
 
@@ -164,35 +176,6 @@ The value uplift from co-location doesn't come free. Behind-the-meter arrangemen
 </div>
 
 The most important difference shows up in a downside scenario. A standalone battery earning all its revenue from wholesale spreads is fully exposed to a world where battery capacity overshoots and spreads compress. A co-located battery still earns from network tariff reduction and loss avoidance even if market spreads fall to zero. The BTM layers provide a floor that standalone batteries don't have.
-
-## How market conditions affect each configuration
-
-Future market conditions affect both configurations, but they affect them differently. The interaction of wholesale prices, network charges, and battery supply determines not just the level of returns but the relative gap between standalone and co-located projects.
-
-<div class="scenario-cards">
-
-<div class="scenario-card scenario-card--red">
-<div class="scenario-card__header">Battery overbuild</div>
-<div class="scenario-card__body">
-<p>If battery capacity overshoots what the market needs, wholesale spreads compress. The standalone battery's entire revenue base shrinks. The co-located battery feels this too, but its BTM value layers are unaffected by wholesale conditions. Network tariff savings, avoided losses, and congestion benefits continue to accrue as long as the industrial load is running. The gap between the two configurations widens in exactly the scenario developers worry about most.</p>
-</div>
-</div>
-
-<div class="scenario-card scenario-card--amber">
-<div class="scenario-card__header">Current momentum</div>
-<div class="scenario-card__body">
-<p>Under a continuation of current market conditions (gradual coal exits, delayed transmission buildout, steady demand growth), wholesale spreads remain healthy. Both configurations generate attractive returns from energy arbitrage. The co-located battery still captures the full BTM stack on top, which is material in absolute terms and relevant to capital allocation decisions across a portfolio of projects.</p>
-</div>
-</div>
-
-<div class="scenario-card scenario-card--green">
-<div class="scenario-card__header">Accelerated demand</div>
-<div class="scenario-card__body">
-<p>Higher electrification, data centre growth, and industrial decarbonisation push both prices and spreads upward. Both batteries benefit. The co-located battery benefits more: higher wholesale prices also mean higher network charges (in dollar terms) available to be shaved, and greater value from avoiding transmission losses on more expensive energy. The BTM layers amplify the upside rather than just providing a floor.</p>
-</div>
-</div>
-
-</div>
 
 ## For developers
 
