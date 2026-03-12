@@ -19,7 +19,17 @@ AEMO's Integrated System Plan, for example, relies on a set of historical refere
 ## Modelling the full distribution
 
 Our approach generated 500 synthetic but physically realistic scenarios using a Monte Carlo simulation framework, with correlations preserved across asset-level wind output, asset-level solar output, and statewide demand. The result is a distribution of outcomes that includes novel combinations of conditions that are statistically plausible but have never been observed before.
-<p class="chart-label">Charts: Generation and price spread (left) | Distribution of revenue (right) &middot; QLD solar and SA wind, 500 simulations, January 2026</p>
+
+## Weather risk is not equal across technologies
+
+Chart 1 plots each of 500 simulated Januaries for a solar farm in Queensland and a wind farm in South Australia. The contrast is immediate:
+
+- **Wind outcomes are far more dispersed.** Revenue varies widely across simulations, reflecting the day-to-day unpredictability of wind resources.
+- **Solar outcomes cluster more tightly.** Solar follows a more predictable diurnal pattern, which constrains the range of possible generation and revenue outcomes.
+
+The width of each distribution shows the revenue risk an asset owner faces from weather variability alone, before any consideration of other typical risks like market, network congestion or policy risks.
+
+<p class="chart-label">Chart 1: Generation and price spread (left) | Distribution of revenue (right) &middot; QLD solar and SA wind, 500 simulations, January 2026</p>
 
 <div class="chart-legend">
   <span class="chart-legend-item"><span class="chart-dot" style="background:#e8913a"></span>Solar asset (QLD)</span>
@@ -32,25 +42,16 @@ Our approach generated 500 synthetic but physically realistic scenarios using a 
 </div>
 <p class="chart-note"><em>Source: BBA Stochastic Probability Model; BBA Power Model. Captured $/MWh are outputs from an SRMC dispatch model. Under this approach, solar assets typically show higher captured prices than wind because they generate during higher-demand daytime periods; this does not reflect strategic bidding behaviour. <a href="mailto:info@aberanalytics.com">Get in touch</a> to discuss how we integrate more sophisticated bidding and pricing assumptions.</em></p>
 
-## Weather risk is not equal across technologies
+## What this means for asset owners
 
-Each dot represents one of 500 simulated Januaries for a solar farm in Queensland and a wind farm in South Australia. The contrast is immediate:
+Chart 2 extends this to 25 randomly selected assets across the NEM. Even within each technology, there is substantial variation in both the level and spread of simulated revenue. Some solar assets show tight distributions well above their break-even revenue threshold, suggesting strong economics regardless of the weather scenario. Wind assets show a wider spread, with certain assets facing significant downside exposure in low-wind scenarios while others carry large upside potential.
 
-- **Wind outcomes are far more dispersed.** Revenue varies widely across simulations, reflecting the day-to-day unpredictability of wind resources.
-- **Solar outcomes cluster more tightly.** Solar follows a more predictable diurnal pattern, which constrains the range of possible generation and revenue outcomes.
-
-The width of each distribution shows the revenue risk an asset owner faces from weather variability alone, before any consideration of other typical risks like market, network congestion or policy risks.
-
-<p class="chart-label">Chart: Simulated solar and wind revenue for 25 randomly selected assets, January 2026</p>
+<p class="chart-label">Chart 2: Simulated solar and wind revenue for 25 randomly selected assets, January 2026</p>
 
 ![Simulated revenue by asset across the NEM](/assets/images/stochastic-weather/Chart2.png)
 <p class="chart-note"><em>Source: BBA Stochastic Probability Model; BBA Power Model. Captured $/MWh are outputs from an SRMC dispatch model. Under this approach, solar assets typically show higher captured prices than wind because they generate during higher-demand daytime periods; this does not reflect strategic bidding behaviour. <a href="mailto:info@aberanalytics.com">Get in touch</a> to discuss how we integrate more sophisticated bidding and pricing assumptions.</em></p>
 
-## What this means for asset owners
-
-Even within each technology, there is substantial variation in both the level and spread of simulated revenue across assets in different weather conditions. Some solar assets show tight distributions well above their break-even revenue threshold, suggesting strong and reliable economics regardless of the weather scenario. The wind assets show an even wider spread in outcomes, with certain assets facing significant downside exposure in low-wind scenarios while others carry large upside potential.
-
-For asset owners and investors who typically work from a single forecast, a point estimate says nothing about the range of outcomes around it. An asset with a strong central case can still carry significant downside exposure in tail scenarios — and that exposure varies substantially by location, technology, and resource quality.
+For asset owners and investors working from a single forecast, a point estimate says nothing about the range of outcomes around it. An asset with a strong central case can still carry significant downside exposure in tail scenarios, and that exposure varies substantially by location, technology, and resource quality.
 
 **Understanding that distribution is what allows for more informed decisions on asset selection, project financing, and portfolio construction.** As the renewable fleet grows and weather-driven revenue risk becomes a more significant factor in project economics, the ability to model that risk with greater precision will only become more valuable.
 
