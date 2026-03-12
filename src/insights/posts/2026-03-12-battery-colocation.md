@@ -1,5 +1,5 @@
 ---
-title: "Sharing the load: How a BTM battery creates extra value for a developer"
+title: "Sharing the load: How a BTM battery can create extra value for a developer and offtaker"
 date: 2026-03-12
 author: "Aber Analytics"
 excerpt: "A typical battery development turns on land and reaching shovel-ready. Co-locating with an industrial load unlocks additional value pools that a front-of-meter project cannot access — and how those pools are shared is a commercial negotiation."
