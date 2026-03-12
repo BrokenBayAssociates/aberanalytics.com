@@ -586,17 +586,6 @@
       xanchor: 'end', yanchor: 'bottom', yshift: 5,
     });
 
-    /* Subtitle note */
-    if (cfg.note) {
-      ann.push({
-        x: 0.5, y: 0, xref: 'paper', yref: 'paper',
-        text: '<i>' + cfg.note + '</i>',
-        showarrow: false,
-        font: { size: 8.5, color: '#9CA3AF' },
-        xanchor: 'center', yanchor: 'top', yshift: -42,
-      });
-    }
-
     /* ── Traces ── */
     var traces = [{
       x: cfg.demand.map(function (p) { return p[0]; }),

@@ -79,6 +79,10 @@ The charts below compare New South Wales and South Australia — two states that
 
 <p class="chart-note"><em>To replicate in the interactive dashboard: NSW &middot; Step Change &middot; reference year 2015 &middot; POE10 &middot; Winter capacity rating.</em></p>
 
+**Today**, NSW has roughly 26&nbsp;GW of nameplate capacity. After firm contribution adjustments, around 15&nbsp;GW of effective capacity remains to meet a POE10 peak of ~14&nbsp;GW. Black coal provides nearly half of all effective capacity, with gas and hydro covering nearly all demand periods, reflecting today's approach to maintaining firm capacity.
+
+**By 2040**, nameplate capacity has grown to ~69&nbsp;GW, but effective firm capacity has grown from just 15&nbsp;GW to 19.5&nbsp;GW. The system has been rebuilt around variable renewables backed by storage, with wind and batteries required to cover 75% of demand periods if imports are excluded <a href="#fn4">[4]</a>. The firm contribution of that wind and storage capacity is weather-dependent and duration-limited, making the gap between the red dashed line and the demand curve the space where market behaviour and weather variability matter most.
+
 ---
 
 ## South Australia: The firming gap
@@ -96,6 +100,10 @@ The charts below compare New South Wales and South Australia — two states that
 </div>
 
 <p class="chart-note"><em>To replicate in the interactive dashboard: SA &middot; Step Change &middot; reference year 2015 &middot; POE10 &middot; Winter capacity rating.</em></p>
+
+**Today**, SA's dispatchable fleet is almost entirely gas, which mostly covers peak demand.
+
+**By 2040**, mid-merit gas retires and nameplate capacity doubles to ~15&nbsp;GW, but effective firm capacity actually *falls* as the additions are overwhelmingly VRE. Peak demand grows to ~4.7&nbsp;GW while local dispatchable capacity shrinks to ~1&nbsp;GW of flexible gas. The gap between peak demand and firm capacity widens to roughly 1&nbsp;GW, meaning SA increasingly depends on flows from neighbouring states via its interconnectors to maintain firm reserves. How neighbouring states manage their own storage reserves during concurrent peak events directly affects whether that firming materialises.
 
 ---
 
