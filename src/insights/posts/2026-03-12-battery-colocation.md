@@ -2,23 +2,25 @@
 title: "Sharing the load: How a BTM battery can create extra value for a developer and offtaker"
 date: 2026-03-12
 author: "Aber Analytics"
-excerpt: "A typical battery development turns on land and reaching shovel-ready. Co-locating with an industrial load unlocks additional value pools that a front-of-meter project cannot access — and how those pools are shared is a commercial negotiation."
+excerpt: "A typical battery development turns on land and reaching shovel-ready. Co-locating with an industrial load unlocks additional value pools that a front-of-meter project cannot access, and how those pools are shared is a commercial negotiation."
 layout: article.njk
 draft: true
 tags: ["insights"]
 ---
 
 <div class="article-lede">
-<p><strong>A typical battery development is primarily about land and getting to shovel-ready.</strong> Across the NEM, large industrial consumers are increasingly contracting battery offtake as an energy price hedge or as part of a broader portfolio strategy. For developers willing to structure these behind-the-meter arrangements, that opens value pools that a front-of-meter project cannot reach.</p>
+<p><strong>Battery development starts with land and the work to reach shovel-ready.</strong> A developer willing to structure a behind-the-meter arrangement with an industrial offtaker can access additional value pools beyond what a front-of-meter project provides. Those additional pools open up when battery and load share a grid connection.</p>
 </div>
+
+Across the NEM, battery development has typically been a front-of-meter exercise: a site, a grid connection, and a merchant or contracted revenue stream. Industrial consumers are increasingly contracting battery offtake as part of their energy strategy. Projects co-located with those loads carry a larger value stack, and access to each layer depends on how the commercial arrangements are structured.
 
 ## Traditional value
 
 Battery development economics start from two foundations.
 
-**Land** is the opportunity cost of the site. For a greenfield project that means site acquisition, a grid connection agreement, and development approvals. For an industrial host, the relevant comparison is the value of existing site access against the cost and lead time of securing a new connection from scratch.
+**Land** is the opportunity cost of the site. For a greenfield project that means acquiring a suitable location and securing access to a grid connection point. An industrial host's comparison is the value of existing site access against the cost and lead time of starting a new connection from scratch.
 
-**Developer margin** is the value created through the development process itself. A project that reaches shovel-ready status with consents, EPC arrangements, and financing in place commands a premium over raw development costs. The size of that premium depends on expected energy prices, the supply and demand for battery projects, and the cost of capital at the time of sale or financial close.
+**Developer margin** is the value created through the development process: securing a grid connection agreement, obtaining development approvals, negotiating EPC arrangements, and arranging financing. A project at shovel-ready status commands a premium over raw development costs. The size of that premium depends on expected energy prices, the supply and demand for battery projects, and the cost of capital at the time of sale or financial close.
 
 <div class="value-bar-chart">
 
@@ -129,7 +131,7 @@ When there is a willing offtaker with a large industrial load, additional value 
 
 The exact realisation of each pool depends on site and offtake-specific conditions. Network tariff savings flow through the industrial host's energy bill, so accessing them requires an agreed mechanism for measuring and sharing those savings. Avoided losses depend on the host's MLF, which varies by node. Congestion avoidance accrues to whoever controls dispatch. Each pool requires a contractual structure to capture.
 
-What the numbers look like for a specific site is a modelling question. Transmission loss factors differ by node. TUOS charge structures vary by network and tariff class. Load profiles shape how much peak shaving is achievable. The general principle that co-location unlocks additional value holds across configurations, but the size of each pool and the appropriate sharing mechanism are site-specific.
+What the numbers look like for a specific site is a modelling question. Transmission loss factors differ by node, TUOS structures vary by network and tariff class, and load profiles determine how much peak shaving is achievable. The general principle holds across configurations, but the size of each pool and the appropriate sharing mechanism are site-specific.
 
 The commercial structure determines who captures what. A developer who negotiates shared savings mechanisms across the BTM layers captures more than one who treats the host purely as a landlord. An industrial consumer who understands the full value stack can negotiate for a direct share, or develop the battery itself.
 
@@ -137,11 +139,11 @@ The commercial structure determines who captures what. A developer who negotiate
 
 Pipeline strategy should account for the quality of co-location opportunities, not just grid connection availability and land cost. A site adjacent to a large, stable industrial load is a structurally different project to a greenfield paddock, even if the connection capacity looks identical on paper. Development effort may be comparable, but the economics are higher and less exposed to wholesale spread compression.
 
-The commercial structuring is harder. The counterparty relationship is ongoing. The industrial host's own constraints, including existing retail contracts, export limitations, and future load uncertainty, shape what is actually achievable. The BTM value pools are available to developers who can structure the arrangements to access them.
+The commercial structuring is harder and the counterparty relationship is ongoing. The host's constraints, including existing retail contracts, export limitations, and future load uncertainty, shape what is actually achievable.
 
 ## For industrial consumers
 
-If you operate a large industrial site with a substantial grid connection, you have something battery developers want: your load, your connection, your land. The question is not whether a battery could reduce your energy costs. In most configurations, it can. The question is what role you want to play and what share of the value you negotiate for.
+If you operate a large industrial site with a substantial grid connection, you have something battery developers want: your load, your connection, your land. A co-located battery will, in most configurations, reduce your energy costs. What matters is what role you want to play and what share of the value you negotiate for.
 
 The options run from passive (lease the land, let someone else develop) to active (develop the battery directly). Each point on that spectrum involves a different capital commitment, risk profile, and capability requirement. Your industrial load creates battery project value that the wholesale market alone cannot provide.
 
@@ -155,5 +157,5 @@ The options run from passive (lease the land, let someone else develop) to activ
 
 <div class="how-we-did-this">
 <h3>How we did this analysis</h3>
-<p>This article describes structural principles of battery co-location economics in the Australian National Electricity Market. Value pool descriptions are based on NEM market rules, TUOS charging frameworks, and marginal loss factor methodology as applied by AEMO. The bar charts show illustrative relative proportions only — actual value pool sizes depend on site-specific conditions including transmission capacity, load profile, network tariff structures, and energy market outcomes. No specific project or site is referenced.</p>
+<p>This article describes structural principles of battery co-location economics in the Australian National Electricity Market. Value pool descriptions are based on NEM market rules, TUOS charging frameworks, and marginal loss factor methodology as applied by AEMO. The bar charts show illustrative relative proportions only; actual value pool sizes depend on site-specific conditions including transmission capacity, load profile, network tariff structures, and energy market outcomes. No specific project or site is referenced.</p>
 </div>
