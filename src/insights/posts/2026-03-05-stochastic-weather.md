@@ -8,7 +8,9 @@ draft: false
 tags: ["insights"]
 ---
 
-**Wind revenue is significantly more variable than solar — and traditional reference-year modelling leaves much of that tail risk unquantified.** We ran 500 synthetic weather scenarios through our dispatch model and found that two assets with the same median revenue can have very different risk profiles depending on location and resource quality.
+<div class="article-lede">
+<p><strong>Wind revenue is significantly more variable than solar — and traditional reference-year modelling leaves much of that tail risk unquantified.</strong> We ran 500 synthetic weather scenarios through our dispatch model and found that two assets with the same median revenue can have very different risk profiles depending on location and resource quality.</p>
+</div>
 
 Weather variability is the defining driver of returns for any wind or solar asset, generating significant differences in revenue across technologies and across individual assets. This inherent variance is not always fully captured by traditional market modelling approaches.
 

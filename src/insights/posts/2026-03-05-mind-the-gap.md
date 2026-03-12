@@ -1,5 +1,5 @@
 ---
-title: "Mind the gap: redefining firm capacity"
+title: "Mind the gap: Redefining firm capacity"
 date: 2026-03-05
 author: "Aber Analytics"
 excerpt: "Load duration curves reveal how firm capacity is being redefined as Australia's energy system transitions from thermal-anchored generation to storage-backed renewables."
