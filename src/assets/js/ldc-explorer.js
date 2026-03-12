@@ -229,6 +229,7 @@
       hovertemplate: '%{y:,.0f} MW<extra>Demand</extra>',
     }];
 
+    chartEl.innerHTML = '';
     Plotly.newPlot('ldc-chart', traces, {
       height: 540,
       margin: { l: 58, r: 12, t: 8, b: 52 },
