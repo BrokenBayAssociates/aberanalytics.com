@@ -25,7 +25,7 @@ Not all energy transitions look the same. A country blessed with extensive hydro
 - **Hydro & geothermal** — Dispatchable clean energy as the system backbone (Norway, New Zealand, parts of Latin America)
 - **Wind-dominant** — High wind penetration, limited solar resource, constrained land availability (e.g., Western Europe)
 
-FFor each archetype, we started from a current system and modelled the cost-optimal technology mix to reach progressively deeper decarbonisation targets, accounting for varying technology availability and resource quality.<sup>1</sup> We have analysed the relative system cost of supplying an average unit of power in each system.
+For each archetype, we started from a current system and modelled the cost-optimal technology mix to reach progressively deeper decarbonisation targets, accounting for varying technology availability and resource quality.<sup>1</sup> We have analysed the relative system cost of supplying an average unit of power in each system.
 
 ## At 80% decarbonisation, Australia can be highly competitive
 
