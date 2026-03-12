@@ -9,7 +9,7 @@ tags: ["insights"]
 ---
 
 <div class="article-lede">
-<p><strong>Wind revenue is significantly more variable than solar — and traditional reference-year modelling leaves much of that tail risk unquantified.</strong> We ran 500 synthetic weather scenarios through our dispatch model and found that two assets with the same median revenue can have very different risk profiles depending on location and resource quality.</p>
+<p><strong>Wind revenue is significantly more variable than solar — and traditional reference-year modelling captures only a narrow slice of that range.</strong> Across 500 synthetic weather scenarios, the spread of possible wind revenue outcomes is wide enough to materially affect financing decisions, with downside exposure in low-wind years that a single reference year will never reveal.</p>
 </div>
 
 Weather variability is the defining driver of returns for any wind or solar asset, generating significant differences in revenue across technologies and across individual assets. This inherent variance is not always fully captured by traditional market modelling approaches.
@@ -32,7 +32,7 @@ Our approach generated 500 synthetic but physically realistic scenarios using a 
   <img src="/assets/images/stochastic-weather/Chart1a.png" alt="Generation and price spread by simulation">
   <img src="/assets/images/stochastic-weather/Chart1b.png" alt="Distribution of revenue">
 </div>
-*Source: BBA Stochastic Probability Model; BBA Power Model*
+<p class="chart-note"><em>Source: BBA Stochastic Probability Model; BBA Power Model. Captured $/MWh are outputs from an SRMC dispatch model. Under this approach, solar assets typically show higher captured prices than wind because they generate during higher-demand daytime periods; this does not reflect strategic bidding behaviour. <a href="mailto:info@aberanalytics.com">Get in touch</a> to discuss how we integrate more sophisticated bidding and pricing assumptions.</em></p>
 
 ## Weather risk is not equal across technologies
 
@@ -46,13 +46,13 @@ The width of each distribution shows the revenue risk an asset owner faces from 
 <p class="chart-label">Chart: Simulated solar and wind revenue for 25 randomly selected assets, January 2026</p>
 
 ![Simulated revenue by asset across the NEM](/assets/images/stochastic-weather/Chart2.png)
-*Source: BBA Stochastic Probability Model; BBA Power Model*
+<p class="chart-note"><em>Source: BBA Stochastic Probability Model; BBA Power Model. Captured $/MWh are outputs from an SRMC dispatch model. Under this approach, solar assets typically show higher captured prices than wind because they generate during higher-demand daytime periods; this does not reflect strategic bidding behaviour. <a href="mailto:info@aberanalytics.com">Get in touch</a> to discuss how we integrate more sophisticated bidding and pricing assumptions.</em></p>
 
 ## What this means for asset owners
 
 Even within each technology, there is substantial variation in both the level and spread of simulated revenue across assets in different weather conditions. Some solar assets show tight distributions well above their break-even revenue threshold, suggesting strong and reliable economics regardless of the weather scenario. The wind assets show an even wider spread in outcomes, with certain assets facing significant downside exposure in low-wind scenarios while others carry large upside potential.
 
-For asset owners and investors who typically work from a single forecast, a point estimate tells the expected outcome but says nothing about the range of outcomes around it. Two assets with the same median revenue can have very different risk profiles depending on how tightly or loosely their outcomes are distributed.
+For asset owners and investors who typically work from a single forecast, a point estimate says nothing about the range of outcomes around it. An asset with a strong central case can still carry significant downside exposure in tail scenarios — and that exposure varies substantially by location, technology, and resource quality.
 
 **Understanding that distribution is what allows for more informed decisions on asset selection, project financing, and portfolio construction.** As the renewable fleet grows and weather-driven revenue risk becomes a more significant factor in project economics, the ability to model that risk with greater precision will only become more valuable.
 
