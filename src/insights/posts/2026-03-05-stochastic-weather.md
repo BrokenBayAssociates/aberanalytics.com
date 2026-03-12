@@ -40,7 +40,7 @@ The width of each distribution shows the revenue risk an asset owner faces from 
   <img src="/assets/images/stochastic-weather/Chart1a.png" alt="Generation and price spread by simulation">
   <img src="/assets/images/stochastic-weather/Chart1b.png" alt="Distribution of revenue">
 </div>
-<p class="chart-note"><em>Source: BBA Stochastic Probability Model; BBA Power Model. Captured $/MWh are outputs from an SRMC dispatch model. Under this approach, solar assets typically show higher captured prices than wind because they generate during higher-demand daytime periods; this does not reflect strategic bidding behaviour. <a href="mailto:info@aberanalytics.com">Get in touch</a> to discuss how we integrate more sophisticated bidding and pricing assumptions.</em></p>
+<p class="chart-note"><em>Source: BBA Stochastic Probability Model; BBA Power Model. Captured $/MWh are outputs from an SRMC-only dispatch model. <a href="mailto:info@aberanalytics.com">Get in touch</a> to discuss how we integrate more sophisticated bidding and pricing assumptions.</em></p>
 
 ## What this means for asset owners
 
@@ -49,7 +49,7 @@ Chart 2 extends this to 25 randomly selected assets across the NEM. Even within 
 <p class="chart-label">Chart 2: Simulated solar and wind revenue for 25 randomly selected assets, January 2026</p>
 
 ![Simulated revenue by asset across the NEM](/assets/images/stochastic-weather/Chart2.png)
-<p class="chart-note"><em>Source: BBA Stochastic Probability Model; BBA Power Model. Captured $/MWh are outputs from an SRMC dispatch model. Under this approach, solar assets typically show higher captured prices than wind because they generate during higher-demand daytime periods; this does not reflect strategic bidding behaviour. <a href="mailto:info@aberanalytics.com">Get in touch</a> to discuss how we integrate more sophisticated bidding and pricing assumptions.</em></p>
+<p class="chart-note"><em>Source: BBA Stochastic Probability Model; BBA Power Model. Captured $/MWh are outputs from an SRMC-only dispatch model. <a href="mailto:info@aberanalytics.com">Get in touch</a> to discuss how we integrate more sophisticated bidding and pricing assumptions.</em></p>
 
 For asset owners and investors working from a single forecast, a point estimate says nothing about the range of outcomes around it. An asset with a strong central case can still carry significant downside exposure in tail scenarios, and that exposure varies substantially by location, technology, and resource quality.
 
