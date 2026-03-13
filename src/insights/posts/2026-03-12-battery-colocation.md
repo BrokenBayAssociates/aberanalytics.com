@@ -2,7 +2,7 @@
 title: "Sharing the load: How a BTM battery can create extra value for a developer and offtaker"
 date: 2026-03-12
 author: "Aber Analytics"
-excerpt: "A typical battery development turns on land and reaching shovel-ready. Co-locating with an industrial load unlocks additional value pools that a front-of-meter project cannot access, and how those pools are shared is a commercial negotiation."
+excerpt: "The merchant case for grid-scale BESS gets harder as the fleet grows. A battery co-located with an industrial load accesses value outside that stack: network tariff savings, avoided transmission losses, and congestion avoidance. How those pools are shared between developer and offtaker is a commercial negotiation."
 layout: article.njk
 draft: false
 permalink: /insights/posts/sharing-the-load/

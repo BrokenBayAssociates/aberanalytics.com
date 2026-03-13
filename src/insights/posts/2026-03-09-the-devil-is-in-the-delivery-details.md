@@ -2,7 +2,7 @@
 title: "The devil is in the (delivery) details"
 date: 2026-03-09
 author: "Aber Analytics"
-excerpt: "Understanding physical bottlenecks can yield a pragmatic view of where the market lands in 2030"
+excerpt: "Snowy 2.0 delays, wind build constraints, and transmission timelines narrow the range of likely outcomes for the NEM in 2030. Understanding these physical bottlenecks yields a more grounded market view than relying on the ISP alone."
 layout: article.njk
 draft: false
 permalink: /insights/posts/the-devil-is-in-the-delivery-details/
