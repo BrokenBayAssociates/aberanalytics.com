@@ -4,6 +4,6 @@ export default function() {
         title: "Aber Analytics",
         url: "https://aberanalytics.com",
         description: "Next-generation energy advisory and modelling tools. Built for applied decision-making with high transparency and low friction.",
-        showInsightsNav: isStaging
+        showInsightsNav: true
     };
 }
