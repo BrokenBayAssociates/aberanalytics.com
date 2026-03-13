@@ -1,0 +1,44 @@
+name: Deploy to internal pod (staging)
+
+on:
+  push:
+    branches:
+      - staging
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build (with drafts)
+        run: INCLUDE_DRAFTS=true npx @11ty/eleventy
+        env:
+          INCLUDE_DRAFTS: "true"
+
+      - name: Connect to Tailscale
+        uses: tailscale/github-action@v2
+        with:
+          authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
+          tags: tag:ci
+
+      - name: Deploy to pod
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+        run: |
+          echo "$DEPLOY_SSH_KEY" > /tmp/deploy_key
+          chmod 600 /tmp/deploy_key
+          tar -czf - _site/ | ssh -i /tmp/deploy_key \
+            -o StrictHostKeyChecking=no \
+            will@100.89.70.75 \
+            "tar -xzf - -C ~/apps/aber/public --strip-components=1"
+          rm /tmp/deploy_key
