@@ -12,7 +12,7 @@ tags: ["insights"]
 <p><strong>Battery development starts the same way:</strong> find a site, secure a connection, and reach shovel-ready. Co-locating with an industrial offtaker changes the economics. It opens up value pools that a front-of-meter project cannot access, and capturing them depends on how the commercial arrangements are structured.</p>
 </div>
 
-Across the NEM, industrial consumers are increasingly contracting battery offtake as a hedge against wholesale price exposure, to manage network tariff costs, or as part of a broader energy strategy. The projects co-located with those loads carry a larger value stack than a standard merchant development. Each layer of that stack requires its own contractual mechanism to access.
+A battery sitting behind an industrial load can access value that grid-scale projects never will. The pipeline of grid-scale BESS in the NEM is enormous, and most of those projects are chasing the same revenue streams. As the fleet grows, the merchant case gets harder. The developers who outperform will be structuring projects differently. Co-locating behind the meter of an industrial consumer is one of the clearest ways to do that.
 
 ## Development fundamentals
 
@@ -127,6 +127,22 @@ When there is a willing offtaker with a large industrial load, additional value 
 })();
 </script>
 
+**Network tariff management** turns the site's TUOS exposure into an asset. Large industrial loads attract demand charges based on peak consumption. A co-located battery can reduce measured peak demand and lower the bill directly.
+
+**Avoided transmission losses** bypass the MLF deductions that apply to energy moving through the transmission network. For sites at nodes with material loss factors, the saving is significant. Energy dispatched to on-site load avoids MLF deductions on the discharge side entirely.
+
+**Avoided congestion** removes the curtailment exposure that affects standalone batteries behind constrained transmission paths. A BTM battery dispatches to on-site load regardless of upstream conditions.
+
+**Energy market alpha**, for an industrial offtaker, converts wholesale price exposure into a more predictable energy cost rather than a merchant position to be managed.
+
+Each pool is worth modelling in dollar terms. Collectively, they also shift the risk profile of the project.
+
+MLFs can move materially over time. As variable renewable generation connects at remote nodes, loss factors at those nodes can deteriorate. A standalone battery's revenue projections depend on MLFs holding or improving. A BTM battery serving on-site load is partially insulated: energy dispatched on-site avoids MLF deductions on the discharge side regardless of how the network evolves.
+
+Congestion follows the same pattern. As the renewable fleet grows and transmission investment lags, constraints become more binding. A standalone battery behind a constrained path may be unable to dispatch when prices are highest. A co-located battery faces no such constraint on the discharge side.
+
+For an offtaker modelling energy costs over a 10 to 15 year contract horizon, these are structural considerations. The transmission network in 2035 will look materially different from today's, and BTM arrangements build in insulation from those changes from the outset.
+
 ## Splitting the value
 
 The exact realisation of each pool depends on site and offtake-specific conditions. Network tariff savings flow through the industrial host's energy bill, so accessing them requires an agreed mechanism for measuring and sharing those savings. Avoided losses depend on the host's MLF, which varies by node. Congestion avoidance accrues to whoever controls dispatch. Each pool requires a contractual structure to capture.
@@ -135,7 +151,7 @@ What the numbers look like for a specific site is a modelling question. Transmis
 
 ## For industrial consumers
 
-If you operate a large industrial site with a substantial grid connection, you have something battery developers want: your load, your connection, your land. A co-located battery will, in most configurations, reduce your energy costs. What matters is what role you want to play and what share of the value you negotiate for.
+If you operate a large industrial site with a substantial grid connection, you have something battery developers want: your load, your connection, your land. A co-located battery will, in most configurations, reduce your energy costs and hedge your exposure to wholesale price volatility. What matters is what role you want to play and what share of the value you negotiate for.
 
 The options run from passive (lease the land, let someone else develop) to active (develop the battery directly). Each point on that spectrum involves a different capital commitment, risk profile, and capability requirement. Your industrial load creates battery project value that the wholesale market alone cannot provide.
 
