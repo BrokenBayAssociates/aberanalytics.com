@@ -30,8 +30,8 @@ When there is a willing offtaker with a large industrial load, additional value 
 
 <div class="value-bar">
 <div class="value-bar__seg value-bar__seg--cong" data-key="cong">Avoided congestion</div>
-<div class="value-bar__seg value-bar__seg--loss" data-key="loss">Avoided tx losses</div>
-<div class="value-bar__seg value-bar__seg--tariff" data-key="tariff">Network tariff mgmt</div>
+<div class="value-bar__seg value-bar__seg--loss" data-key="loss">Avoided transmission losses</div>
+<div class="value-bar__seg value-bar__seg--tariff" data-key="tariff">Network tariff management</div>
 <div class="value-bar__seg value-bar__seg--alpha" data-key="alpha">Energy market alpha</div>
 <div class="value-bar__seg value-bar__seg--dev value-bar__seg--ftm-line" data-key="dev">Developer margin</div>
 <div class="value-bar__seg value-bar__seg--land" data-key="land">Land</div>
