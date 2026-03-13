@@ -16,11 +16,11 @@ Across the NEM, industrial consumers are increasingly contracting battery offtak
 
 ## Development fundamentals
 
-As a developer, every project comes down to the same two things: land and the work to get it built.
+Traditional battery development economics come down to two inputs: **land** and **developer margin**. Both depend on factors outside the developer's control: expected energy prices and the cost of capital at time of sale set the ceiling on what a project can command.
 
-**Land** is the opportunity cost of the site. For an industrial host, the comparison is existing site access against the cost and lead time of a new connection from scratch.
+**Land** is the opportunity cost of the site: the alternative use value and the cost of accessing a grid connection point. For an industrial host, the comparison is existing site access against the cost and lead time of a new connection from scratch.
 
-**Developer margin** is the value created through the development process: connection agreements, development approvals, EPC arrangements, and financing. A project at shovel-ready status commands a premium over raw development costs, driven by expected energy prices and the cost of capital at financial close.
+**Developer margin** is what the development process creates. Securing connection agreements, obtaining approvals, negotiating EPC arrangements, and arranging financing get the project to shovel-ready. The premium earned over raw development costs reflects both that work and market conditions at the time of sale.
 
 ## Co-locating with an industrial load
 
