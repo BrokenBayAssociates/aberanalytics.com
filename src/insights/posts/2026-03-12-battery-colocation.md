@@ -108,7 +108,7 @@ When there is a willing offtaker with a large industrial load, additional value 
 
 Network tariffs, transmission losses, and congestion are value pools today. MLFs vary significantly by node, and congestion limits the dispatchable hours available to a standalone battery, sometimes preventing dispatch precisely when prices are highest. A co-located battery serving on-site load captures value from both without facing the same constraints.
 
-A BTM battery serving on-site load bypasses the transmission network on the output side, which means its returns are largely insulated from how MLFs and congestion evolve at the site's node. A standalone battery's revenue projections depend on today's conditions holding across a 15-year asset life.
+A BTM battery serving on-site load bypasses the transmission network on the output side, which means its returns are largely insulated from how MLFs and congestion evolve at the site's node. A standalone battery's revenue projections depend on today's conditions holding across the full asset life.
 
 With a large volume of new connections due to come onto the NEM, how those conditions change at specific nodes is genuinely uncertain. For an offtaker modelling energy costs over a long contract horizon, BTM arrangements reduce that exposure.
 
