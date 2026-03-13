@@ -18,9 +18,9 @@ Across the NEM, industrial consumers are increasingly contracting battery offtak
 
 Land is the opportunity cost of the site. The more important input is **developer margin**: the premium a shovel-ready project commands over raw development costs.
 
-That premium has two drivers. Securing a connection agreement, obtaining approvals, and arranging EPC and financing retires risk and moves the project from concept to ready-to-build. The market at time of sale then determines what buyers will pay for the future revenue stream: expected energy prices and the cost of capital set the ceiling.
+Securing a connection agreement, obtaining approvals, and arranging EPC and financing retire risk and move the project from concept to ready-to-build. The market at time of sale then determines what buyers will pay for the future revenue stream: expected energy prices and the cost of capital set the ceiling.
 
-For a standard merchant project, that ceiling is tightly linked to the wholesale market outlook. As the BESS fleet grows and spreads compress, buyers revise their expectations down, and developer margin follows. A BTM arrangement adds value pools that sit outside the merchant stack, which is why the ceiling is higher and more resilient.
+For a standard merchant project, that ceiling tracks the wholesale market outlook. As the BESS fleet grows and spreads compress, buyers revise their return expectations down, and developer margin follows. A BTM arrangement adds value pools that sit outside the merchant stack, so the ceiling is higher and less dependent on how the merchant market evolves.
 
 ## Co-locating with an industrial load
 
