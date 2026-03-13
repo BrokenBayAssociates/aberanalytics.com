@@ -4,7 +4,7 @@ date: 2026-03-09
 author: "Aber Analytics"
 excerpt: "Snowy 2.0 delays, wind build constraints, and transmission timelines narrow the range of likely outcomes for the NEM in 2030. Understanding these physical bottlenecks yields a more grounded market view than relying on the ISP alone."
 layout: article.njk
-draft: false
+draft: true
 permalink: /insights/posts/the-devil-is-in-the-delivery-details/
 tags: ["insights"]
 extraScripts:

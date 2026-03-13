@@ -16,10 +16,11 @@ export default function(eleventyConfig) {
         });
     });
 
-    // Collection: insights articles sorted newest first (excludes drafts)
+    // Collection: insights articles sorted newest first (excludes drafts unless INCLUDE_DRAFTS=true)
+    const includeDrafts = process.env.INCLUDE_DRAFTS === "true";
     eleventyConfig.addCollection("insights", function(collectionApi) {
         return collectionApi.getFilteredByGlob("src/insights/posts/*.md")
-            .filter(post => !post.data.draft)
+            .filter(post => includeDrafts || !post.data.draft)
             .sort((a, b) => b.date - a.date);
     });
 

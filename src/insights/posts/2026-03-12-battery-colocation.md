@@ -4,7 +4,7 @@ date: 2026-03-12
 author: "Aber Analytics"
 excerpt: "Most battery projects are competing for the same returns. Co-locating behind an industrial load is one of the clearest ways to access value that a standalone project won't see."
 layout: article.njk
-draft: false
+draft: true
 permalink: /insights/posts/sharing-the-load/
 tags: ["insights"]
 ---
